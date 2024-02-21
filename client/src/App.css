@@ -1,0 +1,118 @@
+.image-post{
+    width: 40%;
+    margin-left: 10%;
+    height:auto;
+    
+}
+.postedby{
+    width: 80%;
+    margin-left: 13%;
+}
+.post-container{
+    display: flex;
+}
+.post-content{
+    width: 400px;
+    margin-left: 13%; 
+    margin-top: 15px;
+}
+.post-detail{
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.post-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.postby{
+    margin-top: 8px;
+    margin-left: 30%;
+    width: 38%;
+}
+.Download-btn{
+    text-align: center;
+    width: 100px;
+    padding: 3px;
+    border: 1 px solid orangered;
+    background-color: rgb(231, 101, 54);
+    color: rgb(250, 250, 250);
+    border-radius: 20px;
+    margin-right: 5px;
+    font-weight: bolder;
+    font-size: 16px;
+    opacity: 75%;
+}
+.Download-btn:hover{
+    opacity: 100%; 
+    
+}
+.account-name{
+    font-weight: 800;
+    margin-left: 30px;
+}
+
+
+
+
+@media screen and (max-width: 1150px) {
+    .image-post{
+        width: 60%;
+        margin-left: 10%;
+        height:auto;
+        
+    }
+    .postedby{
+        width: 60%;
+        margin-left: 10%;
+    }
+    .post-content{
+        width: 60%;
+        margin-left: 10%; 
+        margin-right: 30%;
+    }
+    .post-container{
+        flex-direction: column;
+    }
+  }
+@media screen and (max-width: 770px) {
+    .image-post{
+        width: 64%;
+        margin-left: 18%;
+        margin-right: 18%;
+        height:auto;
+    }
+    .postedby{
+        width: 64%;
+        margin-left: 18%;
+    }
+    .post-content{
+        width: 64%;
+        margin-left: 18%; 
+        margin-right: 18%; 
+    }
+    .post-container{
+        flex-direction: column;
+    }
+  }
+@media screen and (max-width: 450px) {
+    .image-post{
+        width: 86%;
+        margin-left: 7%;
+        margin-right: 7%;
+    }
+    .postedby{
+        width: 86%;
+        margin-left: 7%;
+    }
+    .post-content{
+        width: 86%;
+        margin-left: 7%; 
+        margin-right: 7%; 
+    }
+    .post-container{
+        flex-direction: column;
+    }
+  }
+
